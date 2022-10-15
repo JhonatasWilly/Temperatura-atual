@@ -1,0 +1,186 @@
+/* Geral */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.hide{
+  display: none;
+}
+.container-left{
+  width: 38vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  align-content: space-between;
+  margin-left: 80px;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  flex-grow: 1;
+  justify-content: space-between;
+  
+}
+
+#temperature{
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+#temperature span{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+#city{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#city p{
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+#icon{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 18px;
+
+}
+#icon p{
+  font-size: 1rem;
+  font-weight: 100;
+}
+.glass{
+  background: rgba( 0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: rgba(0,0,0, .24) 0px 3px 8px;
+}
+.container-right{
+  padding: 2rem;
+  color: white;
+  height: 90vh;
+  width: 35vw;
+}
+
+/* Form */
+
+.form h3 {
+  margin-bottom: 1rem;
+}
+
+.form-input-container{
+  display: flex;
+}
+
+.form input{
+  padding: .8rem;
+  border: none;
+  flex: 1;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.form button {
+  padding: 0.8rem;
+  min-width: 50px;
+  color: #fff;
+  border: none;
+  margin-left: 8px;
+  background-color: #FF4500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Clima */
+#weather-data{
+  
+  padding: 1.5rem;
+  text-align: center;
+}
+
+#weather-data h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather-date h2{
+  font-size: 1rem;
+}
+
+#weather-data span{
+  margin: 0.6rem;
+}
+
+#country {
+  height: 15px;
+}
+
+#decription-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+#description{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+#details-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#details-container #umidity{
+  border-right: 1px solid #fff;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+.organization{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+hr{
+  width: 100%;
+  margin-top: 30px;
+}

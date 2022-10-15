@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather now!</title>
+    <link rel="icon" type="imagem/png" href="/img/favicon-32x32.png" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-left glass">
+      <div class="section">
+        <p id="temperature"><span></span>&deg;</p>
+        <div id="city">
+          <span id="cityName"></span>
+          <p>06:09 - Monday, 9 Sep</p>
+        </div>
+        <div id="icon">
+          <img src="" alt="condições do tempo" id="weather-icon" />
+          <p id="description"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container-right glass">
+      <div class="form">
+        <h3>Search country climate:</h3>
+        <div class="form-input-container">
+          <input
+            type="text"
+            placeholder="Digite o nome da cidade"
+            id="city-input"
+            value=""
+          />
+          <button type="button" id="search"">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div id="weather-data" class="hide">
+        <h2>
+          <span id="city-name-right"></span>
+          <img src="" alt="country flag" id="country" />
+        </h2>
+        <div id="description-container"></div>
+        <h3>Weather details</h3>
+        <div id="details-container">
+          <div id="humidity" class="organization">
+            <h4>Humidity:</h4>
+            <p id="humidity">
+              <span></span>
+              <i class="fa-solid fa-droplet"></i>
+            </p>
+          </div>
+          <hr />
+          <div id="wind" class="organization">
+            <h4>Wind:</h4>
+            <p id="wind">
+              <span></span>
+              <i class="fa-solid fa-wind"></i>
+            </p>
+          </div>
+          <hr/>
+          <div id="pressure" class="organization">
+            <h4>Pressure:</h4>
+            <p class="pressure">
+              <span></span>
+              <i class="fa-solid fa-circle-down"></i>
+            </p>
+          </div>
+          <hr/>
+          <div id="temperatura-max" class="organization">
+            <h4>Maximum temperature:</h4>
+            <p class="temperatura-max">
+              <span></span>
+              <i class="fa-solid fa-temperature-arrow-up"></i>
+            </p>
+          </div>
+          <hr/>
+          <div id="temperatura-min" class="organization">
+            <h4>Minimum temperature:</h4>
+            <p class="temperatura-min">
+              <span></span>
+              <i class="fa-solid fa-temperature-arrow-down"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
