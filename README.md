@@ -5,11 +5,16 @@ Aplicação para pratica de consumo de api's
 - De acordo com as pesquisas solicitadas pelo o usuario, o mesmo poderá obter informações sobre o clima do solicido. 
 
 ## Imagens 
+![linkdin](https://github.com/JhonatasWilly/Temperatura-atual/assets/41483494/85c31aaa-ca13-4428-a899-fe3f248a99cd)
 
+## Meu processo:
 
-## Sobre:
-A aplicação conta com o consume de três apis diferentes. 
+# O que eu aprendi:
+Com esse projeto aprendi sobre consumos de api e a utilização de funcções assincronas no JavaScript.
 
-A primeira retorna informações sobre o clima de onde foi solicitado, a segunda retorna bandeira da nacioanalidade do
-resultado da pesquisa e a terceira api mostra imagens aleatorios sobre o pais que foi solicitado na 
-busca. 
+#Construção:
+- Html
+- Css 
+- JavaScript
+- Flexbox
+- Fatch API  
