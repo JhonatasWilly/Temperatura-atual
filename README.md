@@ -2,7 +2,7 @@
 Aplicação para pratica de consumo de api's
 
 # Os desafios: 
-- De acordo com as pesquisas solicitadas pelo o usuario, o mesmo poderá obter informações sobre o clima solicido. 
+- De acordo com as pesquisas solicitadas pelo o usuario, o mesmo poderá obter informações sobre o clima solicitado. 
 
 # Imagens 
 ![linkdin](https://github.com/JhonatasWilly/Temperatura-atual/assets/41483494/85c31aaa-ca13-4428-a899-fe3f248a99cd)
@@ -17,4 +17,4 @@ Aplicação para pratica de consumo de api's
 - Css 
 - JavaScript
 - Flexbox
-- Fatch API  
+- Fetch API  
